@@ -15,7 +15,7 @@ FROM alpine:3.7
 RUN apk update && \
     apk --no-cache　add gcc make automake autoconf pkgconfig libcurl curl-dev libc-dev git
 
-RUN git clone https://github.com/macchky/cpuminer.git
+RUN git clone https://github.com/WIDE888/cpuminer-yescryptR16.git
 
 RUN cd cpuminer && \
     ./autogen.sh && \
