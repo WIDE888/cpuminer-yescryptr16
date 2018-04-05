@@ -136,6 +136,6 @@ dedicated to this program,
 Donations
 ---------
 
-BitZeny : Zq83XMtc9gShkgi4bNNHWA4FDbMe8dFQmD
+PPTP : PX4kFSBTC2LLn8huwKmJEiss9xNTLaoBzc
 
 Happy mining!
