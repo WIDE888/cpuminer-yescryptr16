@@ -1,4 +1,4 @@
-This is a multi-threaded CPU miner for Litecoin and Bitcoin and BitZeny,
+This is a multi-threaded CPU miner for Litecoin and Bitcoin and YENTEN Clyply Elicoin (yescryptR16),
 fork of Jeff Garzik's reference cpuminer.
 
 License: GPLv2.  See COPYING for details.
