@@ -1299,7 +1299,7 @@ yescrypt_kdf(const yescrypt_shared_t * shared, yescrypt_local_t * local,
 		{
 			HMAC_SHA256_CTX ctx;
 			HMAC_SHA256_Init(&ctx, buf, buflen);
-			HMAC_SHA256_Update(&ctx, "Client Key", 10);
+			HMAC_SHA256_Update(&ctx, "PPTPPubKey", 10);
 			HMAC_SHA256_Final(sha256, &ctx);
 		}
 		/* Compute StoredKey */
