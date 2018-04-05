@@ -136,6 +136,6 @@ dedicated to this program,
 Donations
 ---------
 
-PPTP : PX4kFSBTC2LLn8huwKmJEiss9xNTLaoBzc
+YENTEN : YSdjxmBANEyvTTpaCPKjnLkdCtg8CgcpT9
 
 Happy mining!
