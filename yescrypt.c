@@ -21,9 +21,9 @@
 #include "sha256.c"
 #include "yescrypt-best.c"
 
-#define YESCRYPT_N 2048
-#define YESCRYPT_R 8
-#define YESCRYPT_P 1
+#define YESCRYPT_N 4096
+#define YESCRYPT_R 16
+#define YESCRYPT_P 4
 #define YESCRYPT_T 0
 #define YESCRYPT_FLAGS (YESCRYPT_RW | YESCRYPT_PWXFORM)
 
