@@ -1,0 +1,56 @@
+Å°Build for Linux
+
+   apt-get update
+   apt-get install git automake gcc make libcurl4-openssl-dev libjansson-dev
+   git clone https://github.com/WIDE888/cpuminer-xxxx.git
+   cd cpuminer
+   
+   ./build.sh
+
+
+Å°Build for Windows 64bit
+
+   apt-get update
+   apt-get install git
+   apt-get install build-essential
+   apt-get install libtool autotools-dev autoconf pkg-config
+   apt-get install g++-mingw-w64-x86-64 mingw-w64-x86-64-dev
+   apt-get install make libcurl4-openssl-dev
+   
+   git clone https://github.com/WIDE888/cpuminer-xxxx.git
+   cd cpuminer
+   cd depend
+   sh depend.sh
+   cd ..
+   
+   ./mingw64.sh
+
+   #copy files
+   cp minerd.exe depend/curl-7.38.0-devel-mingw64/bin/*.dll /mnt/c/bin/
+   
+
+Å°Build for Termux on Android
+
+   #Download and Install Termux.
+   https://play.google.com/store/apps/details?id=com.termux
+
+   apt update && apt upgrade
+   apt -y install nano git clang openssl-dev libcurl-dev libtool libjansson-dev automake
+   git clone https://github.com/WIDE888/cpuminer-xxxx.git
+   cd cpuminer
+   
+   #Modify syslog.h and comment out the following three lines.
+   nano ../usr/include/syslog.h
+
+   __android_log_vprint
+   __android_log_print
+   android_polyfill_vsyslog
+
+   git clone https://github.com/WIDE888/cpuminer-xxxx.git
+   cd cpuminer
+
+   ./autogen.sh
+   ./configure CFLAGS="-Ofast -march=native"
+   make -j 4
+   strip -s minerd
+   
