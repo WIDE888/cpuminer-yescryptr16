@@ -3,7 +3,7 @@
    apt-get update
    apt-get install git automake gcc make libcurl4-openssl-dev libjansson-dev
    git clone https://github.com/WIDE888/cpuminer-yescryptr16.git
-   cd cpuminer
+   cd cpuminer-yescryptr16
    
    ./build.sh
 
@@ -18,7 +18,7 @@
    apt-get install make libcurl4-openssl-dev
    
    git clone https://github.com/WIDE888/cpuminer-yescryptr16.git
-   cd cpuminer
+   cd cpuminer-yescryptr16
    cd depend
    sh depend.sh
    cd ..
@@ -48,7 +48,7 @@
    android_polyfill_vsyslog
 
    git clone https://github.com/WIDE888/cpuminer-yescryptr16.git
-   cd cpuminer
+   cd cpuminer-yescryptr16
 
    ./autogen.sh
    ./configure CFLAGS="-Ofast -march=native"
