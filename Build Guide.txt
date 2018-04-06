@@ -1,4 +1,4 @@
-¡Build for Linux
+ÂÂ¡Build for Linux
 
    apt-get update
    apt-get install git automake gcc make libcurl4-openssl-dev libjansson-dev
@@ -8,7 +8,7 @@
    ./build.sh
 
 
-¡Build for Windows 64bit
+ÂÂ¡Build for Windows 64bit
 
    apt-get update
    apt-get install git
@@ -29,10 +29,13 @@
    cp minerd.exe depend/curl-7.38.0-devel-mingw64/bin/*.dll /mnt/c/bin/
    
 
-¡Build for Termux on Android
+ÂÂ¡Build for Termux on Android
 
    #Download and Install Termux.
    https://play.google.com/store/apps/details?id=com.termux
+   
+ Â  #Download and Install Hacker's Keyboard for using nano. 
+ Â  https://play.google.com/store/apps/details?id=org.pocketworkstation.pckeyboard
 
    apt update && apt upgrade
    apt -y install nano git clang openssl-dev libcurl-dev libtool libjansson-dev automake
