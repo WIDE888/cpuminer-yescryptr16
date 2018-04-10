@@ -1,8 +1,5 @@
 #!/bin/bash
 
-make distclean || echo clean
-
-rm -f config.status
 ./autogen.sh || echo done
 
 # Debian 7.7 / Ubuntu 14.04 (gcc 4.7+)
